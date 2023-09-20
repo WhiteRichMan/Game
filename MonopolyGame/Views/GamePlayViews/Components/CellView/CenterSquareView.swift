@@ -1,24 +1,16 @@
-/*
-  RMIT University Vietnam
-  Course: COSC2659 iOS Development
-  Semester: 2022B
-  Assessment: Assignment 2
-  Author: Thieu Tran Tri Thuc
-  ID: s3870730
-  Created  date: 15/8/2023
-  Last modified: 5/8/2023
-  Acknowledgement:
-    - The UI components is inspired from:
-        Isaac, “Monopoly: Figma community,” Figma, https://www.figma.com/community/file/1223059141348879689/MONOPOLY (accessed Aug. 15, 2023).
-    - The UI designs are inspired from:
-        This popular Hasbro board game is enjoyed by over a billion people worldwide, We are confident the entire family will fall in love with game night, and MONOPOLY now includes multiplayer video chat. Create a free, “Monopoly - the classic board game on mobile by Marmalade Game Studio,” Marmalade Game Studio, https://www.marmaladegamestudio.com/games/monopoly/ (accessed Aug. 15, 2023).
- */
+//
+//  MonopolyGameApp.swift
+//  MonopolyGame
+//
+//  Created by Руслан Загидуллин on 24.05.2024.
+//
+
 
 import SwiftUI
 import SDWebImageSwiftUI
 
 struct CenterSquareView: View {
-    @AppStorage("isDarkMode") private var isDarkMode: Bool = Theme.darkMode
+   // @AppStorage("isDarkMode") private var isDarkMode: Bool = Theme.darkMode
     
     private var len: CGFloat {
         return  UIScreen.main.bounds.height*0.734
@@ -26,7 +18,7 @@ struct CenterSquareView: View {
     
     var body: some View {
         // Change the gif based on theme
-        WebImage(url: Bundle.main.url(forResource: (isDarkMode ? "centerSquareNight" : "centerSquare2"), withExtension: "gif"), isAnimating: .constant(true))
+        WebImage(url: Bundle.main.url(forResource: ("centerSquare2"), withExtension: "gif"), isAnimating: .constant(true))
             .resizable()
             .customLoopCount(0)
             .scaledToFit()

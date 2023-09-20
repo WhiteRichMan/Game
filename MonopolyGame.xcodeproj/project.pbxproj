@@ -11,29 +11,12 @@
 		A227A8662A9BB8F1002A4924 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = A227A8652A9BB8F1002A4924 /* Record.swift */; };
 		A26B202D2A97BDCB00BC5D26 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A26B202C2A97BDCB00BC5D26 /* SDWebImageSwiftUI */; };
 		A26B20322A97BF3700BC5D26 /* centerSquare2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A26B20312A97BF3700BC5D26 /* centerSquare2.gif */; };
-		A27CF1762A9F42EA008D1295 /* GameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CF1752A9F42EA008D1295 /* GameSettingView.swift */; };
-		A27CF17B2A9F8AC0008D1295 /* DifficultyDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CF17A2A9F8AC0008D1295 /* DifficultyDropdownMenu.swift */; };
-		A28779F72AA476E600472942 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28779F92AA476E600472942 /* Localizable.strings */; };
 		A288D9102AA4E4B8003EC08C /* centerSquareNight.gif in Resources */ = {isa = PBXBuildFile; fileRef = A288D90F2AA4E4B8003EC08C /* centerSquareNight.gif */; };
-		A288D9132AA4E9D3003EC08C /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9122AA4E9D3003EC08C /* bgMusic.mp3 */; };
-		A288D9162AA4EA28003EC08C /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288D9152AA4EA28003EC08C /* PlaySound.swift */; };
-		A288D9182AA4F125003EC08C /* ClickSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9172AA4F125003EC08C /* ClickSound.mp3 */; };
-		A288D91A2AA598F9003EC08C /* enteredProperty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9192AA598F9003EC08C /* enteredProperty.mp3 */; };
-		A288D91C2AA599B2003EC08C /* buyProperty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D91B2AA599B1003EC08C /* buyProperty.mp3 */; };
-		A288D91E2AA59B34003EC08C /* rentPay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D91D2AA59B34003EC08C /* rentPay.mp3 */; };
-		A288D9202AA5A4C5003EC08C /* bankrupt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D91F2AA5A4C5003EC08C /* bankrupt.mp3 */; };
-		A288D9222AA5A5DA003EC08C /* popSF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9212AA5A5DA003EC08C /* popSF.mp3 */; };
-		A288D9242AA5A5E0003EC08C /* nextTurn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9232AA5A5E0003EC08C /* nextTurn.mp3 */; };
-		A288D9262AA5A5FF003EC08C /* buyBuilding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9252AA5A5FF003EC08C /* buyBuilding.mp3 */; };
-		A288D9282AA5A6F4003EC08C /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9272AA5A6F4003EC08C /* winning.mp3 */; };
-		A288D92A2AA5A9CC003EC08C /* spinningSF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A288D9292AA5A9CC003EC08C /* spinningSF.mp3 */; };
 		A29D0ACD2A98488B00C9BB3D /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D0ACC2A98488B00C9BB3D /* GameOverView.swift */; };
 		A29D0ACF2A98924C00C9BB3D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D0ACE2A98924C00C9BB3D /* GameView.swift */; };
 		A29D0AD12A98926700C9BB3D /* ModeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D0AD02A98926700C9BB3D /* ModeSelectionView.swift */; };
 		A29D0AD42A98B37400C9BB3D /* ResumeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D0AD32A98B37400C9BB3D /* ResumeGameView.swift */; };
 		A2DC4A2E2AA76AEA00D69E76 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC4A2D2AA76AEA00D69E76 /* AchievementView.swift */; };
-		A2E616002A8FD39200F13A46 /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E615FF2A8FD39200F13A46 /* RuleView.swift */; };
-		A2E616032A8FD78F00F13A46 /* StepLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E616022A8FD78F00F13A46 /* StepLine.swift */; };
 		A2E616082A907FFD00F13A46 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E616072A907FFD00F13A46 /* GameData.swift */; };
 		A2E6160A2A91082F00F13A46 /* RentPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E616092A91082F00F13A46 /* RentPayView.swift */; };
 		A2E6160E2A92670B00F13A46 /* BankruptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E6160D2A92670B00F13A46 /* BankruptView.swift */; };
@@ -69,30 +52,12 @@
 		A227A8632A9B5F7E002A4924 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
 		A227A8652A9BB8F1002A4924 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		A26B20312A97BF3700BC5D26 /* centerSquare2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = centerSquare2.gif; sourceTree = "<group>"; };
-		A27CF1752A9F42EA008D1295 /* GameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingView.swift; sourceTree = "<group>"; };
-		A27CF17A2A9F8AC0008D1295 /* DifficultyDropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyDropdownMenu.swift; sourceTree = "<group>"; };
-		A28779F82AA476E600472942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A28779FA2AA4777F00472942 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A288D90F2AA4E4B8003EC08C /* centerSquareNight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = centerSquareNight.gif; sourceTree = "<group>"; };
-		A288D9122AA4E9D3003EC08C /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
-		A288D9152AA4EA28003EC08C /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
-		A288D9172AA4F125003EC08C /* ClickSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ClickSound.mp3; sourceTree = "<group>"; };
-		A288D9192AA598F9003EC08C /* enteredProperty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enteredProperty.mp3; sourceTree = "<group>"; };
-		A288D91B2AA599B1003EC08C /* buyProperty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buyProperty.mp3; sourceTree = "<group>"; };
-		A288D91D2AA59B34003EC08C /* rentPay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rentPay.mp3; sourceTree = "<group>"; };
-		A288D91F2AA5A4C5003EC08C /* bankrupt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bankrupt.mp3; sourceTree = "<group>"; };
-		A288D9212AA5A5DA003EC08C /* popSF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = popSF.mp3; sourceTree = "<group>"; };
-		A288D9232AA5A5E0003EC08C /* nextTurn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nextTurn.mp3; sourceTree = "<group>"; };
-		A288D9252AA5A5FF003EC08C /* buyBuilding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buyBuilding.mp3; sourceTree = "<group>"; };
-		A288D9272AA5A6F4003EC08C /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
-		A288D9292AA5A9CC003EC08C /* spinningSF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spinningSF.mp3; sourceTree = "<group>"; };
 		A29D0ACC2A98488B00C9BB3D /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		A29D0ACE2A98924C00C9BB3D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		A29D0AD02A98926700C9BB3D /* ModeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionView.swift; sourceTree = "<group>"; };
 		A29D0AD32A98B37400C9BB3D /* ResumeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGameView.swift; sourceTree = "<group>"; };
 		A2DC4A2D2AA76AEA00D69E76 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
-		A2E615FF2A8FD39200F13A46 /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
-		A2E616022A8FD78F00F13A46 /* StepLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepLine.swift; sourceTree = "<group>"; };
 		A2E616072A907FFD00F13A46 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		A2E616092A91082F00F13A46 /* RentPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentPayView.swift; sourceTree = "<group>"; };
 		A2E6160D2A92670B00F13A46 /* BankruptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankruptView.swift; sourceTree = "<group>"; };
@@ -163,46 +128,10 @@
 			path = Gifs;
 			sourceTree = "<group>";
 		};
-		A27CF1742A9F42D7008D1295 /* GameSettingView */ = {
-			isa = PBXGroup;
-			children = (
-				A27CF1772A9F494F008D1295 /* SubViews */,
-				A27CF1752A9F42EA008D1295 /* GameSettingView.swift */,
-			);
-			path = GameSettingView;
-			sourceTree = "<group>";
-		};
-		A27CF1772A9F494F008D1295 /* SubViews */ = {
-			isa = PBXGroup;
-			children = (
-				A27CF17A2A9F8AC0008D1295 /* DifficultyDropdownMenu.swift */,
-			);
-			path = SubViews;
-			sourceTree = "<group>";
-		};
-		A288D9112AA4E9C2003EC08C /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				A288D9122AA4E9D3003EC08C /* bgMusic.mp3 */,
-				A288D9172AA4F125003EC08C /* ClickSound.mp3 */,
-				A288D9192AA598F9003EC08C /* enteredProperty.mp3 */,
-				A288D9212AA5A5DA003EC08C /* popSF.mp3 */,
-				A288D9272AA5A6F4003EC08C /* winning.mp3 */,
-				A288D91F2AA5A4C5003EC08C /* bankrupt.mp3 */,
-				A288D91D2AA59B34003EC08C /* rentPay.mp3 */,
-				A288D9252AA5A5FF003EC08C /* buyBuilding.mp3 */,
-				A288D9292AA5A9CC003EC08C /* spinningSF.mp3 */,
-				A288D9232AA5A5E0003EC08C /* nextTurn.mp3 */,
-				A288D91B2AA599B1003EC08C /* buyProperty.mp3 */,
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
 		A288D9142AA4EA12003EC08C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				A2EFD40D2A8B8C8100FD33C3 /* ViewModifiers */,
-				A288D9152AA4EA28003EC08C /* PlaySound.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -249,23 +178,6 @@
 			path = SubView;
 			sourceTree = "<group>";
 		};
-		A2E615FE2A8FD38200F13A46 /* RuleView */ = {
-			isa = PBXGroup;
-			children = (
-				A2E616012A8FD77D00F13A46 /* SubViews */,
-				A2E615FF2A8FD39200F13A46 /* RuleView.swift */,
-			);
-			path = RuleView;
-			sourceTree = "<group>";
-		};
-		A2E616012A8FD77D00F13A46 /* SubViews */ = {
-			isa = PBXGroup;
-			children = (
-				A2E616022A8FD78F00F13A46 /* StepLine.swift */,
-			);
-			path = SubViews;
-			sourceTree = "<group>";
-		};
 		A2E6160B2A91083500F13A46 /* RentPayView */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,7 +221,6 @@
 		A2EFD3D02A8B79D400FD33C3 /* MonopolyGame */ = {
 			isa = PBXGroup;
 			children = (
-				A28779F92AA476E600472942 /* Localizable.strings */,
 				A288D9142AA4EA12003EC08C /* Helpers */,
 				A227A8672A9C5CDC002A4924 /* ViewModel */,
 				A2EFD3E02A8B79F500FD33C3 /* Model */,
@@ -334,9 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				A288D92B2AA62328003EC08C /* GamePlayViews */,
-				A27CF1742A9F42D7008D1295 /* GameSettingView */,
 				A29D0ACB2A98487000C9BB3D /* GameView */,
-				A2E615FE2A8FD38200F13A46 /* RuleView */,
 				A2EFD4152A8BE81800FD33C3 /* MenuView */,
 			);
 			path = Views;
@@ -345,7 +254,6 @@
 		A2EFD3E02A8B79F500FD33C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A288D9112AA4E9C2003EC08C /* Sounds */,
 				A26B202E2A97BE5F00BC5D26 /* Gifs */,
 				A2EFD4102A8BC8A400FD33C3 /* Colors */,
 				A2EFD3E32A8B7A1800FD33C3 /* dataFile */,
@@ -520,21 +428,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A288D91C2AA599B2003EC08C /* buyProperty.mp3 in Resources */,
 				A2EFD3D92A8B79D500FD33C3 /* Preview Assets.xcassets in Resources */,
-				A28779F72AA476E600472942 /* Localizable.strings in Resources */,
-				A288D9282AA5A6F4003EC08C /* winning.mp3 in Resources */,
-				A288D91A2AA598F9003EC08C /* enteredProperty.mp3 in Resources */,
-				A288D9262AA5A5FF003EC08C /* buyBuilding.mp3 in Resources */,
-				A288D9132AA4E9D3003EC08C /* bgMusic.mp3 in Resources */,
-				A288D91E2AA59B34003EC08C /* rentPay.mp3 in Resources */,
-				A288D9222AA5A5DA003EC08C /* popSF.mp3 in Resources */,
-				A288D9182AA4F125003EC08C /* ClickSound.mp3 in Resources */,
-				A288D9242AA5A5E0003EC08C /* nextTurn.mp3 in Resources */,
 				A2EFD3E52A8B7A3000FD33C3 /* properties.json in Resources */,
-				A288D92A2AA5A9CC003EC08C /* spinningSF.mp3 in Resources */,
 				A26B20322A97BF3700BC5D26 /* centerSquare2.gif in Resources */,
-				A288D9202AA5A4C5003EC08C /* bankrupt.mp3 in Resources */,
 				A2EFD3D62A8B79D500FD33C3 /* Assets.xcassets in Resources */,
 				A288D9102AA4E4B8003EC08C /* centerSquareNight.gif in Resources */,
 			);
@@ -562,14 +458,10 @@
 				A2EFD4042A8B7B7C00FD33C3 /* VerticalCell.swift in Sources */,
 				A2EFD3D42A8B79D400FD33C3 /* ContentView.swift in Sources */,
 				A2EFD3F52A8B7AD300FD33C3 /* CostLine.swift in Sources */,
-				A27CF1762A9F42EA008D1295 /* GameSettingView.swift in Sources */,
-				A2E616002A8FD39200F13A46 /* RuleView.swift in Sources */,
 				A2EFD4002A8B7B5300FD33C3 /* CornerView.swift in Sources */,
 				A2EFD3E92A8B7A5200FD33C3 /* Player.swift in Sources */,
-				A288D9162AA4EA28003EC08C /* PlaySound.swift in Sources */,
 				A2DC4A2E2AA76AEA00D69E76 /* AchievementView.swift in Sources */,
 				A2EFD4062A8B7B9000FD33C3 /* HorizontalView.swift in Sources */,
-				A2E616032A8FD78F00F13A46 /* StepLine.swift in Sources */,
 				A227A8642A9B5F7E002A4924 /* LeaderBoardView.swift in Sources */,
 				A29D0AD42A98B37400C9BB3D /* ResumeGameView.swift in Sources */,
 				A2EFD3F92A8B7AF600FD33C3 /* BuildingPriceLine.swift in Sources */,
@@ -580,7 +472,6 @@
 				A2EFD3EF2A8B7AA600FD33C3 /* PropertyIntroView.swift in Sources */,
 				A2EFD4092A8B7BAC00FD33C3 /* BoardView.swift in Sources */,
 				A2EFD4122A8BC8BD00FD33C3 /* LinearColors.swift in Sources */,
-				A27CF17B2A9F8AC0008D1295 /* DifficultyDropdownMenu.swift in Sources */,
 				A2EFD4022A8B7B6900FD33C3 /* CenterSquareView.swift in Sources */,
 				A227A8662A9BB8F1002A4924 /* Record.swift in Sources */,
 				A29D0ACF2A98924C00C9BB3D /* GameView.swift in Sources */,
@@ -589,18 +480,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A28779F92AA476E600472942 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A28779F82AA476E600472942 /* en */,
-				A28779FA2AA4777F00472942 /* vi */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A2EFD3DA2A8B79D500FD33C3 /* Debug */ = {
@@ -727,7 +606,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MonopolyGame/Preview Content\"";
-				DEVELOPMENT_TEAM = QZ5G3XLVYQ;
+				DEVELOPMENT_TEAM = BZ3GTSJL4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -741,7 +620,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thuc.asm2.MonopolyGame;
+				PRODUCT_BUNDLE_IDENTIFIER = MonopolyGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -757,7 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MonopolyGame/Preview Content\"";
-				DEVELOPMENT_TEAM = QZ5G3XLVYQ;
+				DEVELOPMENT_TEAM = BZ3GTSJL4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -771,7 +650,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thuc.asm2.MonopolyGame;
+				PRODUCT_BUNDLE_IDENTIFIER = MonopolyGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -1,18 +1,10 @@
-/*
-  RMIT University Vietnam
-  Course: COSC2659 iOS Development
-  Semester: 2022B
-  Assessment: Assignment 2
-  Author: Thieu Tran Tri Thuc
-  ID: s3870730
-  Created  date: 15/8/2023
-  Last modified: 5/8/2023
-  Acknowledgement:
-    - The UI components is inspired from:
-        Isaac, “Monopoly: Figma community,” Figma, https://www.figma.com/community/file/1223059141348879689/MONOPOLY (accessed Aug. 15, 2023).
-    - The UI designs are inspired from:
-        This popular Hasbro board game is enjoyed by over a billion people worldwide, We are confident the entire family will fall in love with game night, and MONOPOLY now includes multiplayer video chat. Create a free, “Monopoly - the classic board game on mobile by Marmalade Game Studio,” Marmalade Game Studio, https://www.marmaladegamestudio.com/games/monopoly/ (accessed Aug. 15, 2023).
- */
+//
+//  MonopolyGameApp.swift
+//  MonopolyGame
+//
+//  Created by Руслан Загидуллин on 24.05.2024.
+//
+
 
 import SwiftUI
 
@@ -23,7 +15,7 @@ extension Int: Identifiable {
 struct BoardView: View {
     @EnvironmentObject var gameData: GameData
     
-    @AppStorage("isDarkMode") private var isDarkMode: Bool = Theme.darkMode
+    //@AppStorage("isDarkMode") private var isDarkMode: Bool = Theme.darkMode
     
     @State  var showingDetail: Bool = false
     @State  var selectedPropertyIdx: Int? = nil
@@ -54,7 +46,6 @@ struct BoardView: View {
     // Custom back button
     var backButton : some View {
         Button(action: {
-            playSound(sound: "ClickSound", type: "mp3", isRepeat: false)
             // Dismiss to go back to main menu
             backMenu = true
         })  {
@@ -79,19 +70,12 @@ struct BoardView: View {
     var body: some View {
         // MARK: ZStack for background
         ZStack {
-            // MARK: Outer background
-            Image( isDarkMode ? "boardBGNight" : "boardBackground")
-                .resizable()
-                .scaledToFit()
-                .edgesIgnoringSafeArea(.all)
-            
+           
             // MARK: Main Gameplay
             HStack {
                 // MARK: Buttons bar at the right of screen
                 VStack {
                     Button(action: {
-                        playSound(sound: "ClickSound", type: "mp3", isRepeat: false)
-                        
                         self.showingGoButton = false
                         showingDices.toggle()
                     }, label: {
@@ -116,7 +100,6 @@ struct BoardView: View {
                     
                     // MARK: Button to add house
                     Button(action: {
-                        playSound(sound: "ClickSound", type: "mp3", isRepeat: false)
                         isBuildingMode.toggle()
                         displayingEndturn.toggle()
                     }, label: {
@@ -149,7 +132,6 @@ struct BoardView: View {
                         .frame(width: UIScreen.main.bounds.height*(UIDevice.isIPad ? 0.30 : 0.38), height: UIScreen.main.bounds.width*0.06)
                         .overlay {
                             Button(action: {
-                                playSound(sound: "ClickSound", type: "mp3", isRepeat: false)
                                 endTurn()
                                 
                                 self.gameData.saveData()
@@ -380,7 +362,6 @@ struct BoardView: View {
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: backButton)
         .onAppear {
-            playBackgroundMusic(sound: "bgMusic", type: "mp3")
         }
     }
     
@@ -460,14 +441,12 @@ struct BoardView: View {
     }
     
     func buyProperty() {
-        playSound(sound: "buyProperty", type: "mp3", isRepeat: false)
         let propertyIdx = gameData.propertyList.indices.filter{ gameData.propertyList[$0].spaces == String(curPos) }.first!
         
         gameData.playerList[gameData.currentTurn].money -= Int(gameData.propertyList[propertyIdx].cost)!
         
         withAnimation() {
             gameData.playerList[gameData.currentTurn].properties.append(gameData.propertyList[propertyIdx])
-            playSound(sound: "popSF", type: "mp3", isRepeat: false)
         }
         
         // Reset value back to false
@@ -485,6 +464,5 @@ struct BoardView: View {
             self.showingGoButton = true
         }
         
-        playSound(sound: "nextTurn", type: "mp3", isRepeat: false)
     }
 }
