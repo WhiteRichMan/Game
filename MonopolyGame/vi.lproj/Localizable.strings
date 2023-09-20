@@ -1,0 +1,88 @@
+"PLAY" = "CHƠI";
+"Settings" = "Cài Đặt";
+"Leader Board" = "Xếp Hạng";
+"Achievements" = "Huy Chương";
+"Monopoly Rules" = "Luật Chơi";
+
+"Language" = "Ngôn Ngữ";
+"English (en)" = "Tiếng Việt (vi)";
+"Player 1:" = "Người chơi 1:";
+"Player 2:" = "Người chơi 2:";
+"Easy" = "Dễ";
+"Medium" = "Thường";
+"Hard" = "Khó";
+"Get 200$ salary when passing GO. No taxes." = "Nhận 200$ khi đi qua GO. Không có thuế.";
+"Get 200$ salary when passing GO. 2 Tax offices" = "Nhận 200$ khi đi qua GO. Có 2 nơi thu thuế.";
+"No salary when passing GO. 2 Tax offices" = "Không nhận lương khi đi qua GO. Có 2 nơi thu thuế.";
+
+"Win 1 game" = "Thắng 1 ván";
+"Win 3 games" = "Thắng 3 ván";
+"Win 10 games" = "Thắng 10 ván";
+"Win 100 games" = "Thắng 100 ván";
+
+"MONOPOLY Game Rules" = "Luật chơi MONOPOLY";
+"How To Win" = "Cách Để Chiến Thắng";
+"On Your Turn" = "Vào Lượt Của Bạn";
+"Board Spaces" = "Các Ô Trên Bàn Cờ";
+
+"Move around the board buying as many properties (Streets, Stations and Utilities) as you can. Each player start with $1,500. The more you own, the more rent you'll get. If you're the last player when all other players have gone bankrupt, you win!"
+= "Di chuyển quanh bàn để mua càng nhiều tài sản (Đường, Nhà ga và Tiện ích) càng tốt. Mỗi người chơi bắt đầu với 1.500$. Sở hữu càng nhiều bạn sẽ nhận được càng nhiều tiền thuê. Nếu bạn là người chơi cuối cùng khi tất cả người chơi khác đã phá sản, bạn thắng!";
+
+"Roll the dices" = "Đổ xí ngầu";
+"Your token will move forward that number of spaces" = "Token của bạn sẽ di chuyển về phía trước số bước đó";
+"Where did you land?" = "Bạn đáp vào ô?";
+"If you land on a Street, you'll have the chance to buy that property (if unowned) or you'll have to pay rent to the owner!"
+= "Nếu bạn đáp vào một đường, bạn có thể mua nó (nếu chưa được mua) hoặc phải trả tiền thuê cho chủ sở hữu!";
+
+"If you landed on an SKIP SPACE, you'll move forward one space" = "Nếu bạn đáp vào ô SKIP SPACE, bạn sẽ di chuyển về phía trước 1 ô";
+"After moving, you can manage your property, if you want to. You can buy buildings. You can only initiate these actions on your turn."
+= "Sau khi di chuyển, bạn có thể quản lí tài sản. Bạn có thể mua công trình. Bạn chỉ có thể làm khi trong lượt của mình.";
+
+"Buy Houses" = "Mua Nhà";
+"When you are ready, end your turn." = "Khi đã sẵn sàng, hãy kết thúc lượt của bạn.";
+"Streets" = "Đường";
+"Unowned Streets" = "Đường chưa được mua";
+"When you land on a Street that no one owns, you can buy it or not." = "Khi bạn đáp vào một đường chưa được ai mua, bạn có thể mua nó hoặc không.";
+"Owned Streets" = "Đường đã được mua";
+"When you land on a Street that someone else owns, you must pay them rent!" = "Khi bạn đáp vào một đường đã được mua bởi người khác, bạn phải trả phí thuê!";
+"If you buy Houses, rent goes up even more!" = "Nếu bạn mua nhà, phí thuê sẽ tăng lên!";
+"You can also upgrade to Hotels!" = "Bạn cũng có thể nâng cấp lên Khách sạn!";
+"Stations" = "Nhà ga";
+"Stations are like Streets, except that Houses and Hotels cannot be built on Stations."
+= "Nhà ga giống như Đường, ngoại trừ việc bạn không thể mua Nhà và Khách sạn trên Nhà ga.";
+
+"Rent depends on how many Stations the owner has." = "Phí thuê phụ thuộc vào số Nhà ga chủ sở hữu có.";
+"Action Spaces" = "Ô Hành Động";
+"If you move took you onto or past the GO space, you get $200 from the Bank" = "Nếu bạn đến hoặc đi qua ô GO, bạn có thể nhận $200 từ Bank";
+"Relax! Nothing happens." = "Chill! Khum có gì đâu =)).";
+
+"Select Mode" = "Chế Độ Chơi";
+"Pass & Play" = "Chuyền & Chơi";
+"Challenge our AI\nplayers" = "Đấu với AI\n máy";
+"Pass one device\nbetween players" = "Chuyền thiết bị\ngiữa các người chơi";
+"Coming soon!" = "Sắp ra mắt";
+"Resume games?" = "Chơi tiếp?";
+"There is a game in progress." = "Có một ván đấu đang diễn ra.";
+"NEW GAME" = "CHƠI MỚI";
+"RESUME" = "TIẾP TỤC";
+
+"END TURN" = "XONG LƯỢT";
+
+"BUY $%@" = "MUA $%@";
+"DON'T BUY" = "BỎ QUA";
+
+"%@ is bankrupt!" = "%@ đã phá sản!";
+"%@ \npaid $%@ to \n %@" = "%@ \ntrả $%@ cho \n %@";
+
+"Purchase Cost" = "Giá mua";
+"Mortgage Value" = "Giá thế chấp";
+"Rent" = "Thuê";
+"Rent with color set" = "Thuê khi đủ bộ màu";
+"Rent with" = "Thuê với";
+"House cost" = "Giá nhà";
+"Hotel cost" = "Giá khách sạn";
+"Rent with 2 stations are owned" = "Thuê khi sở hữu 2 bến";
+"Rent with 3 stations are owned" = "Thuê khi sở hữu 3 bến";
+"Rent with 4 stations are owned" = "Thuê khi sở hữu 4 bến";
+
+"%@) is the winner!" = "%@ chiến thắng!";
